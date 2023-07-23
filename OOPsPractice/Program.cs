@@ -33,8 +33,12 @@ namespace PracticeProblems
                         Pattern pattern = new Pattern();
                         pattern.PrintGivenPattern();
                         break;
-
                     case 6:
+                        Pattern1 pattern1 = new Pattern1();
+                        pattern1.PrintGivenPattern2();
+                        break;
+
+                    case 7:
                         flag = false;
                         break;
 
