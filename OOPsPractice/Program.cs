@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOPsPractice;
+using System;
 namespace PracticeProblems
 {
     class Program
@@ -7,7 +8,7 @@ namespace PracticeProblems
         {
             bool flag = true;
             Console.WriteLine("Practice Problems:");
-            Console.WriteLine("Choose your option:\n 1.Number of Duplicates\n 2.Unique elements\n 3.Frequency\n 4.MinMaxElements\n 5.Exit");
+            Console.WriteLine("Choose your option:\n 1.Number of Duplicates\n 2.Unique elements\n 3.Frequency\n 4.MinMaxElements\n 5.Print Pattern\n 6.Print Pattern-2\n 7.Reverseord\n 8.Exit");
             while (flag)
             {
                 int choice = Convert.ToInt32(Console.ReadLine());
@@ -37,8 +38,11 @@ namespace PracticeProblems
                         Pattern1 pattern1 = new Pattern1();
                         pattern1.PrintGivenPattern2();
                         break;
-
                     case 7:
+                        ReverseWord reverse = new ReverseWord();
+                        reverse.PrintReverseEachWord();
+                        break;
+                    case 8:
                         flag = false;
                         break;
 
