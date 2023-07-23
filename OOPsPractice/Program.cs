@@ -30,6 +30,11 @@ namespace PracticeProblems
                         minMaxElements.FindMaxMinElement();
                         break;
                     case 5:
+                        Pattern pattern = new Pattern();
+                        pattern.PrintGivenPattern();
+                        break;
+
+                    case 6:
                         flag = false;
                         break;
 
